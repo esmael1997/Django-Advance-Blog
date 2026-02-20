@@ -136,3 +136,68 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# --------------------
+# Django
+# --------------------
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (اختیاری - بستگی به سیاست تیم دارد)
+# */migrations/
+# !*/migrations/__init__.py
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+.env.*
+*.env
+
+# --------------------
+# Docker
+# --------------------
+*.pid
+*.sock
+docker-compose.override.yml
+
+# --------------------
+# VSCode / IDE
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Coverage & Testing
+# --------------------
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+
+# --------------------
+# Node (اگر بعداً اضافه کردی)
+# --------------------
+node_modules/
