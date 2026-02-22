@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Post(models.Model):
     '''
     this is a class to define posts for blog app
