@@ -6,6 +6,7 @@ from django.views.generic.base import RedirectView
 app_name = "blog"
 
 urlpatterns = [
-    path('cbv_index', views.indexView.as_view(), name="cbv_index"),
-    path('go-to-index', views.RedirectToMaktab.as_view(), name='redirect-to-maktabkhooneh'),
+    #path('cbv_index', views.IndexView.as_view(), name="cbv_index"),
+    #path('go-to-maktabkhooneh', views.RedirectToMaktab.as_view(), name='redirect-to-maktabkhooneh'),
+    path('post/', views.PostListView.as_view(),name='post_list'),
 ]
